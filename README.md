@@ -1,14 +1,23 @@
-# Yolov5-with-Custom-Dataset-easy
+<h1 align="center">Yolov5-with-Custom-Dataset-easy</h1>
+
 Today I will explain how to use yolov5 with a custom dataset
 ## Steps
-1) Create Folders for the Custom Dataset
-2) Download LabelImg for creation of the Custom Dataset
-3) How to use LabelImg
-4) Creation of the Dataset.yaml
-5) Download Yolov5
-6) Download Requirements
-7) Train the Custom Dataset
-8) Test the Custom Dataset
+- [Installation LabelImg](#Installation-LabelImg)
+- [Creation of folders](#Creation-of-folders)
+- [Installation of Yolov5](#Installation-of-Yolov5)
+- [Creation Custom Dataset](#Creation-Custom-Dataset)
+- [Creation Dataset.yaml](#Creation-Dataset.yaml)
+- [Training Custom Dataset](#Training-Custom-Dataset)
+- [Testing Custom Dataset](#Testing-Custom-Dataset)
 
 # Let's Start
-## Step 1
+
+### Installation LabelImg
+
+### Creation of folders
+
+### Installation of Yolov5
+### Creation Custom Dataset
+### Creation Dataset.yaml
+### Training Custom Dataset
+### Testing Custom Dataset
