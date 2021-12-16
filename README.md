@@ -23,7 +23,7 @@ $ labelImg
 ### Creation of folders
 
 Go in the Deskopt and create a folder
-![Creation Cartel](Tutorial-Images/Creation Cartel1.png)
+![Creation Cartel](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Cartel1.png)
 
 
 ### Installation of Yolov5
