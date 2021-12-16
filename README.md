@@ -23,28 +23,28 @@ $ labelImg
 ## Creation of folders
 
 Go in the Deskopt and create a folder called " *Custom Dataset* "
-![Creation Cartel](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Cartel1.png)
+![](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Cartel1.png | width=100)
 
 In the Folder called " *Custom Dataset* " create a folder called " *Dataset* "
 
-![Creation Cartel](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Cartel2.png)
+![Creation Cartel](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Cartel2.png =250x250)
 
 In the Folder called " *Dataset* " create 2 folders called " *images* " and " *labels* "
 
-![Creation Cartel](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Cartel3.png)
+![Creation Cartel](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Cartel3.png =250x250)
 
 ## Installation of Yolov5
 
 To Build and Setup, just run in <b> /home/stiven/Scrivania/CUSTOM DATASET <b>
-  ![Path](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Path.png)
+![Path](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Path.png =250x250)
+  
 ```
 $ git clone https://github.com/ultralytics/yolov5
 $ cd yolov5
 $ pip install -r requirements.txt or sudo install -r requirements.txt  or pip3 install -r requirements.txt 
 ```
   
-  
-![Path](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Yolov5%20folder.png)
+![Path](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Yolov5%20folder.png =250x250)
 
 ## Creation Custom Dataset
 
@@ -52,7 +52,8 @@ $ pip install -r requirements.txt or sudo install -r requirements.txt  or pip3 i
 
 ## Creation Dataset.yaml
 <b>  Go into the Path <b> 
-![Path](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Path.png)
+  
+![Path](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Path.png =250x250)
 
 In this Example: /home/stiven/Scrivania/CUSTOM DATASET/Dataset
 
