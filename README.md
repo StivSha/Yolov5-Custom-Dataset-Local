@@ -16,7 +16,7 @@ Today I will explain how to use yolov5 with a custom dataset
 
 To Build and Open, just run
 ```
-$ pip3 install labelImg or pip install labelImg or sudo install labelImg
+$ sudo install labelImg or pip install labelImg or pip3 install labelImg
 $ labelImg
 ```
 
@@ -33,9 +33,21 @@ In the Folder called " *Dataset* " create 2 folders called " *images* " and " *l
 
 ![Creation Cartel](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Cartel3.png)
 
-
 ### Installation of Yolov5
+
+To Build and Setup, just run
+```
+$ git clone https://github.com/ultralytics/yolov5
+$ cd yolov5
+$ pip install -r requirements.txt or sudo install -r requirements.txt  or pip3 install -r requirements.txt 
+```
+
 ### Creation Custom Dataset
+
+# TODO
+
 ### Creation Dataset.yaml
+Go into 
+![Path](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Path.png)
 ### Training Custom Dataset
 ### Testing Custom Dataset
