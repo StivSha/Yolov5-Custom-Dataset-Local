@@ -22,8 +22,16 @@ $ labelImg
 
 ### Creation of folders
 
-Go in the Deskopt and create a folder
+Go in the Deskopt and create a folder called " *Custom Dataset* "
 ![Creation Cartel](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Cartel1.png)
+
+In the Folder called " *Custom Dataset* " create a folder called " *Dataset* "
+
+![Creation Cartel](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Cartel2.png)
+
+In the Folder called " *Dataset* " create 2 folders called " *images* " and " *labels* "
+
+![Creation Cartel](https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Creation%20Cartel3.png)
 
 
 ### Installation of Yolov5
