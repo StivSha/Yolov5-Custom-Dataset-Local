@@ -1,4 +1,4 @@
-<h1 align="center">Yolov5-with-Custom-Dataset-easy</h1>
+<h1 align="center">Yolov5 Custom Dataset easy in Local</h1>
 
 Today I will explain how to use yolov5 with a custom dataset
 ## Steps
