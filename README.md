@@ -105,4 +105,4 @@ for <b> TRAIN GO INTO THE YOLOV5 FOLDER, OPEN TERMINAL</b> , just run
 ```
 $   python3 detect.py --source (PATH, EXAMPLE:"../scene0-30_view\=12.jpeg" THE IMAGE YOU WANNA TEST)  --weights best.pt or last.pt
 ```  
-    
+<b> When the Test FINISHED go into the folder /home/stiven/Scrivania/CUSTOM DATASET/Yolov5/runs/DETECT/exp... </b>
