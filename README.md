@@ -16,7 +16,7 @@ Today I will explain how to use yolov5 with a custom dataset
 
 To Build and Open, just run
 ```
-$ sudo install labelImg or pip install labelImg or pip3 install labelImg
+$ sudo install labelImg 
 $ labelImg
 ```
 
@@ -37,8 +37,6 @@ In the Folder called " *Dataset* " create 2 folders called " *images* " and " *l
 ## Installation of Yolov5
 
 To Build and Setup, just run in <b> /home/stiven/Scrivania/CUSTOM DATASET </b>
-  
- <img src="https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/Path.png" width="500" height="250">
 
 ```
 $ cd home/stiven/Scrivania/CUSTOM\ DATASET/  "EXAMPLE" 
@@ -51,7 +49,22 @@ $ pip install -r requirements.txt or sudo install -r requirements.txt  or pip3 i
 
 ## Creation Custom Dataset
 
-# TODO
+Open labelImg: 
+```
+$ labelImg
+```
+<img src="https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/label.png" width="500" height="250">
+
+CLICK IN THE BLOCK LEFT UNTIL IS WRITED YOLO 
+
+<img src="https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/label2.png" width="500" height="250">
+
+AFTER OPEN AN IMAGE AND CREATE A RECTBOX, AFTER WRITE THE NAME OF THE CLASS
+
+<img src="https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/label3.png" width="500" height="250">
+
+<b> SAVE ALL IMAGES INTO THE IMAGES FOLDER OF THE DATASET ("home/stiven/Scrivania/CUSTOM DATASET/Dataset/images" EXAMPLE),
+      ALL LABELS CREATED WITH LABELIMG (TXT FILES) SAVE IT INTO THE LABELS FOLDER OF THE DATASET ("home/stiven/Scrivania/CUSTOM DATASET/Dataset/labels" EXAMPLE)
 
 ## Creation Dataset.yaml
 <b>  Go into the Path </b> 
@@ -77,18 +90,17 @@ names: ['Class, Class2, Class3 ...']
 
 
 ## Training Custom Dataset
-for <b> TRAIN GO INTO THE YOLOV5 FOLDER, OPEN TERMINAL</b> , just run
-  in this example was /home/stiven/Scrivania/CUSTOM DATASET/Yolov5
+for <b> TRAIN GO INTO THE YOLOV5 FOLDER, OPEN TERMINAL</b> ("/home/stiven/Scrivania/CUSTOM DATASET/Yolov5" EXAMPLE)
   
 ```
-$  python3 train.py --data your_data.yaml --weights yolov5s.pt
+$  python3 train.py --data ../dataset/NAME.yaml --weights yolov5s.pt
 ```  
 If you don't have yolov5s.pt download it in: https://github.com/ultralytics/yolov5/releases
 and after save it in the Yolov5 Folder ("/home/stiven/Scrivania/CUSTOM DATASET/Yolov5" Example)
 
 
 ## Testing Custom Dataset
-  <b> When the Train FINISHED go into the folder /home/stiven/Scrivania/CUSTOM DATASET/Yolov5/runs/train/exp...
+  <b> When the Train FINISHED go into the folder ("/home/stiven/Scrivania/CUSTOM DATASET/Yolov5/runs/train/exp... EXAMPLE)
           take the LAST EXP, open it and go into WEIGHTS folder
     copy LAST.PT OR BEST.PT   </b>
           
@@ -99,10 +111,10 @@ and after save it in the Yolov5 Folder ("/home/stiven/Scrivania/CUSTOM DATASET/Y
  
 <img src="https://github.com/StivSha/Yolov5-with-Custom-Dataset-easy/blob/main/Tutorial%20Images/best2.png" width="500" height="250">     
 
-for <b> TRAIN GO INTO THE YOLOV5 FOLDER, OPEN TERMINAL</b> , just run
+for <b> TEST GO INTO THE YOLOV5 FOLDER, OPEN TERMINAL</b> , just run
   in this example was /home/stiven/Scrivania/CUSTOM DATASET/Yolov5
   
 ```
-$   python3 detect.py --source (PATH, EXAMPLE:"../scene0-30_view\=12.jpeg" THE IMAGE YOU WANNA TEST)  --weights best.pt or last.pt
+$   python3 detect.py --source PATH, EXAMPLE:"../scene0-30_view\=12.jpeg" (THE IMAGE YOU WANNA TEST)  --weights best.pt or last.pt
 ```  
 <b> When the Test FINISHED go into the folder /home/stiven/Scrivania/CUSTOM DATASET/Yolov5/runs/DETECT/exp... </b>
