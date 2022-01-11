@@ -1,7 +1,7 @@
 <h1 align="center">Yolov5 Custom Dataset in Local (Easy) </h1>
 
  Today I will explain how to use yolov5 with a custom dataset. <br> 
-It will be a easy version to how to do it
+It will be a easy version to how to do it.
 ## Steps
 - [Installation LabelImg](#Installation-LabelImg)
 - [Creation of folders](#Creation-of-folders)
